@@ -8,5 +8,5 @@ function azar(num: number): number {
 //for + funcion que carga los valores
 for (i = 0; i < 10; i++) {
   array[i] = azar(100);
-  console.log("en la posicion " + i, "se ingreso el numero " + array[i]);
+  console.log("en la posicion " + (i + 1), "se ingreso el numero " + array[i]);
 }
